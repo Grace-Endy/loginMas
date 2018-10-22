@@ -72,6 +72,7 @@ public class RegisterActivity extends AppCompatActivity {
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params=new HashMap<>();
                 params.put("registeruser", "true");
+
                 params.put("username", username.getText().toString().trim());
                 params.put("userpassword", userpassword.getText().toString().trim());
                 params.put("useremail", useremail.getText().toString());
