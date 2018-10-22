@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<ImageView
+    android:layout_width="320dp"
+    android:layout_height="120dp"
+    android:layout_gravity="center"
+    android:background="@drawable/logo"
+    android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/usename"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffff"
+            android:hint="Username"
+            android:paddingLeft="20dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:id="@+id/userpassword"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:background="#ffff"
+            android:hint="Password"
+            android:paddingLeft="20dp"
+            />
+<Button
+    android:layout_marginTop="40dp"
+    android:textColor="#ffff"
+    android:textSize="20sp"
+    android:id="@+id/btnUserLogin"
+    android:background="#aaaac2"
+    android:text="Login"
+    android:layout_width="match_parent"
+    android:layout_height="54dp" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:textAlignment="center"
+    android:text="New User? Register Here"
+    android:textColor="#fff"
+    android:textSize="18sp"
+    android:id="@+id/userSignup"
+    android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
